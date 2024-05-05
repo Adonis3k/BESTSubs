@@ -1,0 +1,56 @@
+
+.specials{
+  padding-left: 2%;}
+.specialslist {
+  padding-left: 2%;
+}
+.breakfast-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.list-column {
+  flex: 1 0 calc(15% - 10px); /* Adjust the width as needed */
+  margin-right: 10px;
+}
+.extras-specials {
+  flex: 1 0  calc(15% - 10px); /* Adjust the width as needed */
+  margin-right: 2px;
+}
+
+
+.extras {
+  padding: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 1 0 calc(48% - 10px); /* Adjust the width as needed */
+  margin-right: 10px;
+}
+li {list-style-type: none;}
+
+ul {
+  list-style-type: none; /* This removes the bullet points */
+  /* This removes the default padding on the left, often useful for aligning the list items to the left */
+}
+
+.Breakfast-section {
+  background-color: white; /* Sets the background of the card to white */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a subtle shadow for a 3D effect */
+  padding: 20px; /* Adds space inside the card around the content */
+  margin: 0; /* Adds space around the card */
+  transition: all 0.3s ease; /* Smooth transitions for hover effects */
+    &:hover {
+      box-shadow: 0 0 1px rgba(39, 44, 49, 0.1),
+        0 3px 16px rgba(39, 44, 49, 0.07);
+      transition: all 0.3s ease;
+      transform: translate3D(0, -1px, 0);
+    }
+
+  }
+  
+

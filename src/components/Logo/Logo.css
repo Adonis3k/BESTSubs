@@ -1,0 +1,10 @@
+.Logo {
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    place-items: center; 
+    margin-top: 5rem;
+    color: rgb(81, 255, 0);
+    position: sticky; 
+    z-index: 1001;  
+    top: 0;
+}
