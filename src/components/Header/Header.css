@@ -1,0 +1,94 @@
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+.navitems ul {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    height: 4.5rem;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start ;
+    background-color: #263849;
+    background-size: cover;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    opacity: 95%;
+}
+
+.navitems li {
+    padding-top: 1.5rem;
+    margin: 0 1.5rem;
+}
+
+.navitems a:hover, .navitems li a:hover {
+    text-decoration: underline;
+}
+
+.resume-button {
+    background-color: #41506b;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.resume-button:hover {
+    background-color: #81a6b1;
+}
+
+/* Responsive Styles for screens less than or equal to 650px */
+@media (max-width: 375px) {
+    .nav-toggle {
+        display: block; /* Ensure toggle button is visible */
+        position: fixed;
+        top: 1.5rem;
+        right: 1rem;
+        z-index: 10000;
+        
+    }
+
+    .navitems {
+        display: none; /* Initially hide the nav items */
+    }
+
+    .navitems.open {
+        display: block; /* Display nav items when open */
+        position: fixed;
+        top: 1.5rem;
+        right: -80% ;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+        border-radius: 5%;
+        width: 100%;
+        size: 100%; /* Full viewport height */
+        background-color: rgba(63, 63, 63, 0.356); /* Solid background with some opacity */
+        z-index: 1002; 
+        overflow: auto;
+    }
+
+    .navitems.open ul {
+        display:contents; /* Display the UL block */
+        position: fixed;
+        background-size: cover;
+    }
+
+    .navitems.open li {
+        display: block; /* Display each LI as a block */
+        margin: 0.5rem 0;
+        width: 100%; /* Full width for each item */
+        text-align: left;
+    }
+}
+

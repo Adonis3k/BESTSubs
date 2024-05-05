@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Header from './components/Header/Header.js';
+import Logo from './components/Logo/Logo.js';
+import Hero from './components/Hero/Hero.js'
+import Breakfast from './components/Breakfast/Breakfast.js';
+import ColdSubsWraps from './components/ColdSubsWraps/ColdSubsWraps.js';
+import HotSubsWraps from './components/HotSubsWraps/HotSubsWraps.js';
+import Salads from './components/Salads/Salads.js';
+import KidsSubs from './components/KidsSubs/KidsSubs.js';
+import DrinksCombos from './components/DrinksCombos/DrinksCombos.js';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Logo />
+      <Hero />
+      <Breakfast />
+      <ColdSubsWraps />
+      <HotSubsWraps />
+      <Salads />
+      <KidsSubs />
+      <DrinksCombos/>
     </div>
   );
 }

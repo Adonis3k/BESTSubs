@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+.App
+{
+  width: 100%; /* Occupy the entire width of the viewport */
+  max-width: Auto; /* Limit the maximum width to 320px */
+  margin: 0 auto; /* Center the element horizontally */
+  padding: 6.25rem 2.5rem;
+  text-align: left; /* Center the content within the element */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.body{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+@media (min-width: 320px) {
+  .Breakfast-Header, .ColdSubsWraps-Header {
+    font-size: 1rem;
+    font-family: "Alex Brush", cursive;
+    font-weight: 900;
+    font-style: bold;
+      padding-left: 1rem;
+      padding-top: 2.5rem;
+      color:rgb(255, 0, 0);
+      position: relative;
+      z-index: 1;   /* Adjust the font size for mobile screens */}
+
+}
+ 
+
+
+
+@media (min-width: 375px) {
+  .Breakfast-Header, .ColdSubsWraps-Header,.HotSubsWraps-Header {
+    font-size: 3rem;  
+    font-family: "Alex Brush", cursive;
+    font-weight: 900;
+    font-style: bold;
+      padding-left: 1rem;
+      padding-top: 2.5rem;
+      color:rgb(255, 0, 0);
+      position: relative;
+      z-index: 1;   /* Adjust the font size for slightly larger screens */
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (min-width: 425px) {
+  .Breakfast-Header,.ColdSubsWraps-Header,.HotSubsWraps-Header {
+    font-size: 3rem;
+    font-family: "Alex Brush", cursive;
+    font-weight: 900;
+    font-style: bold;
+      padding-left: 1rem;
+      padding-top: 2.5rem;
+      color:rgb(255, 0, 0);
+      position: relative;
+      z-index: 1;   /* Adjust the font size for larger screens */
   }
 }
+
+@media (min-width: 768px) {
+  .Breakfast-Header,.ColdSubsWraps-Header,.HotSubsWraps-Header {
+    font-size: 5rem;
+      font-family: "Alex Brush", cursive;
+      font-weight: 900;
+      font-style: bold;
+        padding-left: 1rem;
+        padding-top: 2.5rem;
+        color:rgb(255, 0, 0);
+        position: relative;
+        z-index: 1;  
+     } /* Adjust the font size for even larger screens */
+  }
