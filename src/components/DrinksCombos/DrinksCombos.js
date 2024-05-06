@@ -11,7 +11,7 @@ const DrinksCombos = () => {
           <div className='DrinksCombos-list'>
             <ul>
               <li>MAKE ANY SUB, WRAP, OR SALAD A COMBO</li>
-              <div className="DrinksCombos-Header">DRINK MENU</div>
+              <div className="DrinksCombos-Header">Drink Menu</div>
               <li>Bottled Soda</li>
               
               <li>Chips with Soda or Juice</li>
