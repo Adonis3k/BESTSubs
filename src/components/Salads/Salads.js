@@ -4,7 +4,7 @@ import './Salads.css';
 const Salads = () => {
   return (
     <div className="Salads-section">
-      <div className="Salads-Header">SALADS</div>
+      <div className="Salads-Header">Salads</div>
       <div className="SaladsContainer">
         {/* Content of the card */}
         <div className="card">     

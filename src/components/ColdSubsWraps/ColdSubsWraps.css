@@ -1,5 +1,17 @@
 
+.ColdSubsWraps-Header{
 
+  
+  padding-top: 2.5rem;
+  color:rgb(255, 0, 0);
+  position: relative;
+  z-index: 1;  
+}
+.extras{
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
  ul {
   list-style-type: none; /* This removes the bullet points */
   /* This removes the default padding on the left, often useful for aligning the list items to the left */

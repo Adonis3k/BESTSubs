@@ -1,7 +1,6 @@
 
 .Salads-Header{
-    font-size: 4rem;
-    padding-left: 4rem;
+   
     padding-top: 2.5rem;
     color:rgb(255, 0, 0);
     position: relative;
@@ -14,8 +13,6 @@
 
 .Salads-section {
   background-color: white; /* Sets the background of the card to white */
-  border: 3rem solid rgb(255, 238, 0); /* Adds a solid yellow border for the trim */
-  border-radius: 2rem; /* Gives the card rounded corners */
   box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a subtle shadow for a 3D effect */
   padding: 20px; /* Adds space inside the card around the content */
   margin: 20px; /* Adds space around the card */
