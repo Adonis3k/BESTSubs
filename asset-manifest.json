@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/BESTSubs/static/css/main.b0e56bdb.css",
+    "main.js": "/BESTSubs/static/js/main.5e0960d6.js",
+    "static/js/453.92a53c12.chunk.js": "/BESTSubs/static/js/453.92a53c12.chunk.js",
+    "index.html": "/BESTSubs/index.html",
+    "main.b0e56bdb.css.map": "/BESTSubs/static/css/main.b0e56bdb.css.map",
+    "main.5e0960d6.js.map": "/BESTSubs/static/js/main.5e0960d6.js.map",
+    "453.92a53c12.chunk.js.map": "/BESTSubs/static/js/453.92a53c12.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0e56bdb.css",
+    "static/js/main.5e0960d6.js"
+  ]
+}
