@@ -8,21 +8,21 @@ const HotSubsWraps = () => {
       <div className="HotSubsWrapsContainer">
         {/* Content of the card */}
         <div className="card">     
-          <div className='breakfast-list'>
-            <ul>
+          <div className='HotSusWraps-list'>
+            <ul className="list-column">
               <li>Steak & Cheese</li>
               <li>Roast Beef & Cheese</li>
               <li>Pastrami & Cheese</li>
               <li>BLT</li>
               <li>Butffalo Chicken</li>
-              <ul>
+              <ul className="list-column">
               <li>Grilled Chiken</li>
               <li>Chicken Cutlet</li>
               <li>Chicken Cutlet Parmesan</li>
               <li>MeatBall Parmesan</li>
               <li>Pastrami, Turkey & Cheese</li>
               </ul>
-              <ul>
+              <ul className="list-column">
               <li>Hamburger</li>
               <li>Bacon Cheese Burger</li>
               <li>Grilled Chicken & Bacon</li>
