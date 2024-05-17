@@ -37,8 +37,11 @@ class Header extends Component {
       <div className="Banner">
         {showButton && (
           <button className="nav-toggle" onClick={this.toggleNav}>
-            ☰
-          </button>
+          {isOpen ? 'X' : '☰'}
+        </button>
+          // <button className="nav-toggle" onClick={this.toggleNav}>
+          //   ☰
+          // </button>
         )}
         <div className={`navitems ${isOpen ? 'open' : ''}`}>
           <ul>
