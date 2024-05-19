@@ -5,7 +5,7 @@ import './Header.css';
 class Header extends Component {
   constructor(props) {
     super(props);
-    this.state = { isOpen: false, showButton: true };
+    this.state = { isOpen: false, showButton: true, headerHeight: 0};
     this.toggleNav = this.toggleNav.bind(this);
   }
   componentDidMount() {
@@ -18,7 +18,9 @@ class Header extends Component {
   }
 
   handleResize = () => {
-    this.setState({ showButton: window.innerWidth < 768 });
+    const showButton = window.innerWidth < 768;
+    const headerHeight = showButton ? 565 : -25 ; // Ensure headerHeight is correctly set
+    this.setState({ showButton, headerHeight });
   };
 
   toggleNav() {
@@ -32,46 +34,43 @@ class Header extends Component {
 
 
   render() {
-    const { showButton, isOpen } = this.state;
+    const { showButton, isOpen, headerHeight } = this.state; 
     return (
       <div className="Banner">
         {showButton && (
           <button className="nav-toggle" onClick={this.toggleNav}>
           {isOpen ? 'X' : '☰'}
         </button>
-          // <button className="nav-toggle" onClick={this.toggleNav}>
-          //   ☰
-          // </button>
         )}
         <div className={`navitems ${isOpen ? 'open' : ''}`}>
           <ul>
             <li>
-              <Link to="Breakfast-section" smooth={true} duration={1000} onClick={this.closeNav}>
+              <Link to="Breakfast-section" smooth={true} duration={1000} offset={-headerHeight} onClick={this.closeNav}>
                 Breakfast
               </Link>
             </li>
             <li>
-              <Link to="ColdSubsWraps-section" smooth={true} duration={1000} onClick={this.closeNav}>
+              <Link to="ColdSubsWraps-section" smooth={true} duration={1000} offset={-headerHeight} onClick={this.closeNav}>
                 Cold Subs or Wraps
               </Link>
             </li>
             <li>
-              <Link to="HotSubsWraps-section" smooth={true} duration={1000} onClick={this.closeNav}>
+              <Link to="HotSubsWraps-section" smooth={true} duration={1000} offset={-headerHeight} onClick={this.closeNav}>
                 Hot Subs & Wraps
               </Link>
             </li>
             <li>
-              <Link to="Salads-section" smooth={true} duration={1000} onClick={this.closeNav}>
+              <Link to="Salads-section" smooth={true} duration={1000} offset={-headerHeight} onClick={this.closeNav}>
                 Salads
               </Link>
             </li>
             <li>
-              <Link to="KidsSubs-section" smooth={true} duration={1000} onClick={this.closeNav}>
+              <Link to="KidsSubs-section" smooth={true} duration={1000} offset={-headerHeight} onClick={this.closeNav}>
                 Kids Subs
               </Link>
             </li>
             <li>
-              <Link to="DrinksCombos-section" smooth={true} duration={1000} onClick={this.closeNav}>
+              <Link to="DrinksCombos-section" smooth={true} duration={1000} offset={-headerHeight} onClick={this.closeNav}>
                 Drink Menu
               </Link>
             </li>
