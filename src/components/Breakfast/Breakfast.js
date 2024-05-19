@@ -1,5 +1,5 @@
 import React from 'react';
-import Breakfaststyles from './Breakfast.css';
+import './Breakfast.css';
 
 const Breakfast = () => {
   return (

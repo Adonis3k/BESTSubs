@@ -31,7 +31,7 @@
 }
 
 .navitems ul {
-    width: 100%;
+    width: auto;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -44,6 +44,7 @@
     padding: 1.5rem 0;
     padding-top: 2.5rem;
     align-items: center;
+    
     font-family: "Share Tech Mono", monospace;
     font-weight: 500;
     font-style: normal;
@@ -62,18 +63,41 @@
 
 @media (min-width: 769px) {
     .navitems {
-        display: flex; /* Display navigation items */
-        position: static; /* Remove fixed positioning */
-        height: auto; /* Adjust height to content */
-        background-color: transparent; /* Clear background */
-        align-items: center; /* Align items in the center */
+        position: fixed;
+        display: flex; 
+        padding-left: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        justify-content: space-between;
+        height: auto; 
+        background-color: rgba(255, 255, 255, 0.95);
+        
+        align-items: center; 
         border-bottom: none;
-    }}
+        flex-direction: row;
+    }
+
+    .navitems ul {
+        width: 100%; /* Ensure the ul takes full width */
+        display: flex; /* Display ul as flex */
+        justify-content: space-between; /* Distribute space between items */
+        padding: 0; /* Reset padding */
+        margin: 0; /* Reset margin */
+    }
+
+    .navitems li {
+        padding: 0; 
+        margin: 0; 
+        border-bottom: none; 
+        padding-right: 2rem;
+    }
+}
 
 @media (max-width: 768px) {
     .nav-toggle {
         display: block;
         border-bottom: none;
+        position: fixed;
     }
 
     .navitems {
