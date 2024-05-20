@@ -1,50 +1,8 @@
-.hero-container
-{
-  background: #e1e9ef; 
-  /* font-family: 'Roboto Mono'; */
-  color: #35bcbf                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ;  
-  text-align: left;  
-  width: 70%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
-  padding-top: 7rem;
-  padding-left: 7rem;
-  line-height: 2.6;
-}
-
-.myNameis {
-  font-size: 2rem;
-}
-
-.adonisMadera {
+.hero {
   position: relative;
-  z-index: 1;  
-  font-size: 4rem;
-  padding: 0rem;
-  color: #ffff;
-  
-}
-.big-heading {
-  font-size: 2rem;
-  line-height: normal;
-  color:rgb(47, 255, 0)
-}
-.p {
-  padding-top: 2rem;
-}
-@media (max-width: 768px) {
-  .hero-container {
-    width: 85%;
-    padding: 4rem; /* Adjust padding for smaller screens */
-    
-  }
-
-  .adonisMadera {
-    font-size: 2rem; /* Adjust font size for smaller screens */
-  }
-
-  .big-heading {
-    font-size: 1rem; /* Adjust font size for smaller screens */
-  }
-  .myNameis {
-    font-size: 1.5rem;
-  }
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
 }
