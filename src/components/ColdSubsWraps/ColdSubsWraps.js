@@ -4,6 +4,7 @@ import './ColdSubsWraps.css'; // Corrected CSS import
 const ColdSubsWraps = () => {
   return (
     <div className="ColdSubsWraps-section">
+      <div className="ColdSubsWraps-card"> 
       <div className="ColdSubsWraps-Header">Cold Subs or Wraps</div>
       <div className="workContainer">
         {/* Content of the card */}
@@ -45,6 +46,7 @@ const ColdSubsWraps = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

@@ -8,8 +8,8 @@
 }
 .list-column{
   font-family: "Share Tech Mono", monospace;
-  font-weight: 450;
-  font-style: normal;
+
+
 }
 
 .body{
@@ -51,7 +51,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
     font-style: bold;
       padding-left: 1rem;
       padding-top: 2.5rem;
-      color:rgb(255, 0, 0);
+      color:rgb(0, 0, 0);
       position: relative;
       z-index: 1;   /* Adjust the font size for slightly larger screens */
   }
@@ -70,7 +70,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
     font-style: bold;
       padding-left: 1rem;
       padding-top: 2.5rem;
-      color:rgb(255, 0, 0);
+      color:rgb(0, 0, 0);
       position: relative;
       z-index: 1;   /* Adjust the font size for larger screens */
   }
@@ -89,7 +89,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
       font-style: bold;
         padding-left: 1rem;
         padding-top: 2.5rem;
-        color:rgb(255, 0, 0);
+        color:rgb(0, 0, 0);
         position: relative;
         z-index: 1;  
      } /* Adjust the font size for even larger screens */
