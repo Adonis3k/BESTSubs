@@ -7,7 +7,7 @@ const HotSubsWraps = () => {
       <div className="HotSubsWraps-Header">Hot Subs or Wraps</div>
       <div className="HotSubsWrapsContainer">
         {/* Content of the card */}
-        <div className="card">     
+            
           <div className='HotSusWraps-list'>
             <ul className="list-column">
               <li>Steak & Cheese</li>
@@ -40,7 +40,7 @@ const HotSubsWraps = () => {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 }
   

@@ -24,33 +24,24 @@ ul {
 }
 
 .HotSubsWraps-section {
+  background-color: darkgreen;
   font-family: "Share Tech Mono", monospace;
-    font-weight: 500;
-    font-style: normal;
-  background-color: white; /* Sets the background of the card to white */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a subtle shadow for a 3D effect */
-  padding: 20px; /* Adds space inside the card around the content */
-  margin: 20px; /* Adds space around the card */
-  transition: all 0.3s ease; /* Smooth transitions for hover effects */
-
-  
-    &:hover {
-      box-shadow: 0 0 1px rgba(39, 44, 49, 0.1),
-        0 3px 16px rgba(39, 44, 49, 0.07);
-      transition: all 0.3s ease;
-      transform: translate3D(0, -1px, 0);
-    }
-  
-    /* .content {
-      display: flex;
-      flex-direction: column;
-      justify-content: auto;
-      height: 100%;
-      min-height: auto;
-      padding: 1.25rem;
-  
-
-    } */
+  font-weight: 500;
+  font-style: normal;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a subtle shadow for a 3D effect */
+padding: 20px; /* Adds space inside the card around the content */
+margin: 0; /* Adds space around the card */
+transition: all 0.3s ease; /* Smooth transitions for hover effects */
+  &:hover {
+    box-shadow: 0 0 1px rgba(39, 44, 49, 0.1),
+      0 3px 16px rgba(39, 44, 49, 0.07);
+    transition: all 0.3s ease;
+    transform: translate3D(0, -1px, 0);
   }
+  }
+.HotSubsWrapsContainer
+{ background-color: green;
+  border-radius: 10%;
+  color: white;}
   
 

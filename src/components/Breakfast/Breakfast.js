@@ -4,7 +4,9 @@ import './Breakfast.css';
 const Breakfast = () => {
   return (
     <div className="Breakfast-section">
+      <div className="breakfast-card">  
       <div className="Breakfast-Header">Breakfast</div>
+
       <span className='specials'>     SPECIALS: </span >
               <div className='specialslist'>
                  <li  >Ham, Eggs, & Cheese on Roll w/ Coffee or Tea</li>
@@ -36,23 +38,22 @@ const Breakfast = () => {
 </ul >
             </div>
           </div>
-          <div className="extras-specials">
-          <div className="card">     
+          
+            
             <div className='extras-Breakast'>
               <span className="extras">EXTRAS:
-                <li>Lettuce</li>
-                <li>Tomatoes</li>
-                <li>Jalapeno</li>
-                <li>Onions</li>
+                <li>Lettuce,</li>
+                <li>Tomatoes,</li>
+                <li>Jalapeno,</li>
+                <li>Onions,</li>
                 <li>Sweet & Hot Peppers</li>
               </span >
          
             </div>
       </div>
       </div>
-      </div>
-
-        </div>
+ </div>
+      
 
   );
 }
