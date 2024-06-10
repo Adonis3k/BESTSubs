@@ -3,12 +3,13 @@ import './Salads.css';
 
 const Salads = () => {
   return (
-    <div className="Salads-section">
-      <div className="Salads-Header">Salads</div>
-      <div className="SaladsContainer">
+    <div className="salads-section">
+      <div className='salad-Card'>
+      <div className="salads-Header">Salads</div>
+      <div className="saladsContainer">
         {/* Content of the card */}
-        <div className="card">     
-          <div className='Salads-list'>
+          
+          <div className='salads-list'>
             <ul>
               <li>Garden Salad</li>
               <li>Antipasto</li>
@@ -20,10 +21,32 @@ const Salads = () => {
             </ul>
           </div>
         </div>
-      </div>
+        <div className="KidsSubs-Header">Kids Subs</div>
+        <div className="KidsSubsContainer">     
+          <div className='KidsSubs-list'>
+            <ul>
+              <li>Ham & Cheese</li>
+              <li>Turkey & Cheese</li>
+              <li>Salami & Cheese</li>
+              <li>Tuna Salad</li>
+           </ul>
+        </div>
+          </div>
+              
+          
+              <div className="KidsSubs-Header">Kids Combos</div>
+              <div className='Kids-Combos-list'>
+              <ul>
+              <li>kids Sub</li>
+              <li>Chips with Soda or Juice</li>
+            </ul>
+            </div>
+      </div>    
     </div>
-  );
+    
+);
 }
+
   
 
 export default Salads;

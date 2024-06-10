@@ -4,6 +4,7 @@ import './DrinksCombos.css';
 const DrinksCombos = () => {
   return (
     <div className="DrinksCombos-section">
+      <div className='DrinksCombos-Card'>
       <div className="DrinksCombos-Header">Drinks & Combos</div>
       <div className="DrinksCombosContainer">
         {/* Content of the card */}
@@ -17,6 +18,7 @@ const DrinksCombos = () => {
               <li>Chips with Soda or Juice</li>
             </ul>
           </div>
+        </div>
         </div>
       </div>
     </div>

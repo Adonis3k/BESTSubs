@@ -10,9 +10,24 @@
   list-style-type: none; /* This removes the bullet points */
   /* This removes the default padding on the left, often useful for aligning the list items to the left */
 }
-
+.DrinksCombos-list{
+  padding-left: 2%;
+  font-weight: 700 ;
+  font-size: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.DrinksCombos-Card {
+  background-color: silver;
+  border-radius: 10%;
+  color:black;
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+}
 .DrinksCombos-section {
-  background-color: white; /* Sets the background of the card to white */
+  background-color: red; /* Sets the background of the card to white */
   box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a subtle shadow for a 3D effect */
   padding: 20px; /* Adds space inside the card around the content */
   margin: 20px; /* Adds space around the card */
