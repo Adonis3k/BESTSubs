@@ -20,7 +20,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
   .Breakfast-Header, 
   .ColdSubsWraps-Header,
   .HotSubsWraps-Header,
-  .Salads-Header,
+  .salads-Header,
   .KidsSubs-Header,
   .DrinksCombos-Header {
     font-size: 1rem;
@@ -42,7 +42,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
   .Breakfast-Header, 
   .ColdSubsWraps-Header,
   .HotSubsWraps-Header,
-  .Salads-Header,
+  .salads-Header,
   .KidsSubs-Header,
   .DrinksCombos-Header {
     font-size: 3rem;  
@@ -61,7 +61,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
   .Breakfast-Header,
   .ColdSubsWraps-Header,
   .HotSubsWraps-Header,
-  .Salads-Header,
+  .salads-Header,
   .KidsSubs-Header,
   .DrinksCombos-Header {
     font-size: 3rem;
@@ -80,8 +80,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
   .Breakfast-Header,
   .ColdSubsWraps-Header,
   .HotSubsWraps-Header,
-  .Salads-Header,
-  .KidsSubs-Header,
+  .salads-Header,
+  .KidsSubs-Header , 
   .DrinksCombos-Header {
     font-size: 6rem;
       font-family: "Alex Brush", cursive;

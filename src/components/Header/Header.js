@@ -60,12 +60,12 @@ class Header extends Component {
               </Link>
             </li>
             <li>
-              <Link to="Salads-section" smooth={true} duration={1000} offset={-headerHeight} onClick={this.closeNav}>
+              <Link to="salads-section" smooth={true} duration={1000} offset={-headerHeight} onClick={this.closeNav}>
                 Salads
               </Link>
             </li>
             <li>
-              <Link to="KidsSubs-section" smooth={true} duration={1000} offset={-headerHeight} onClick={this.closeNav}>
+              <Link to="KidsSubs-Header" smooth={true} duration={1000} offset={-headerHeight} onClick={this.closeNav}>
                 Kids Subs
               </Link>
             </li>

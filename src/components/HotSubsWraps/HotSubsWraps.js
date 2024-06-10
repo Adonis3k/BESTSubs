@@ -4,21 +4,23 @@ import './HotSubsWrap.css';
 const HotSubsWraps = () => {
   return (
     <div className="HotSubsWraps-section">
+      <div className="HotSubsWraps-card"> 
       <div className="HotSubsWraps-Header">Hot Subs or Wraps</div>
-      <div className="HotSubsWrapsContainer">
+      <div className="card">
         {/* Content of the card */}
             
-          <div className='HotSusWraps-list'>
+          <div className='HotSubsWraps-list'>
             <ul className="list-column">
               <li>Steak & Cheese</li>
               <li>Roast Beef & Cheese</li>
               <li>Pastrami & Cheese</li>
               <li>BLT</li>
               <li>Butffalo Chicken</li>
+              </ul>
               <ul className="list-column">
               <li>Grilled Chiken</li>
               <li>Chicken Cutlet</li>
-              <li>Chicken Cutlet Parmesan</li>
+              <li>Chicken Parm</li>
               <li>MeatBall Parmesan</li>
               <li>Pastrami, Turkey & Cheese</li>
               </ul>
@@ -29,6 +31,8 @@ const HotSubsWraps = () => {
               <li>Ham, Turkey & Cheese</li>
               <li>Veggie Burger</li>
               </ul>
+              
+              <ul className="list-column">
               <li>Buffalo Chicken</li>
              <div style={{ fontStyle: 'italic', marginTop: '4px' }}>Turkey & Cheese</div> {/* Italic description underneath */}
               <li>Teriayaki Chicken </li>
@@ -36,9 +40,12 @@ const HotSubsWraps = () => {
               <li>Grilled Chicken</li>
               <div style={{ fontStyle: 'italic', marginTop: '4px' }}>Bacon & Cheese</div> {/* Italic description underneath */}
              <li>Tuna Melt</li>
-            </ul>
+             </ul>
+            
+            
           </div>
         </div>
+      </div>
       </div>
     
   );

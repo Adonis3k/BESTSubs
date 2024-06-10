@@ -1,47 +1,50 @@
-.list-column {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  
-}
 
 .HotSubsWraps-Header{
-  
-    padding-top: 2.5rem;
-    color:rgb(255, 0, 0);
-    position: relative;
-    z-index: 1;  
- }
- .card {
-  flex: 1 0 calc(48% - 10px); /* Adjust the width as needed */
-  margin-right: 10px;
-}
-li {list-style-type: none;}
 
-ul {
+  
+  padding-top: 2.5rem;
+  color:red;
+  position: relative;
+  z-index: 1;  
+}
+
+
+
+ ul {
   list-style-type: none; /* This removes the bullet points */
   /* This removes the default padding on the left, often useful for aligning the list items to the left */
-}
 
+}
 .HotSubsWraps-section {
-  background-color: darkgreen;
-  font-family: "Share Tech Mono", monospace;
-  font-weight: 500;
-  font-style: normal;
-box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a subtle shadow for a 3D effect */
-padding: 20px; /* Adds space inside the card around the content */
-margin: 0; /* Adds space around the card */
-transition: all 0.3s ease; /* Smooth transitions for hover effects */
-  &:hover {
-    box-shadow: 0 0 1px rgba(39, 44, 49, 0.1),
-      0 3px 16px rgba(39, 44, 49, 0.07);
-    transition: all 0.3s ease;
-    transform: translate3D(0, -1px, 0);
+  
+  background-color: goldenrod;
+  padding: 20px; /* Adds space inside the card around the content */
+  margin: 0px; /* Adds space around the card */
+  transition: all 0.3s ease; /* Smooth transitions for hover effects */
+
+  
+    &:hover {
+      box-shadow: 0 0 1px rgba(39, 44, 49, 0.1),
+        0 3px 16px rgba(39, 44, 49, 0.07);
+      transition: all 0.3s ease;
+      transform: translate3D(0, -1px, 0);
+    }
+  
   }
+  .HotSubsWraps-list{  
+    padding-left: 2%;
+    font-weight: 700 ;
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+
+
   }
-.HotSubsWrapsContainer
-{ background-color: green;
-  border-radius: 10%;
-  color: white;}
+  .HotSubsWraps-card{
+    background-color: white;
+    border-radius: 10%;
+  }
   
 

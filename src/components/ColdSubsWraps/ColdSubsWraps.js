@@ -6,10 +6,9 @@ const ColdSubsWraps = () => {
     <div className="ColdSubsWraps-section">
       <div className="ColdSubsWraps-card"> 
       <div className="ColdSubsWraps-Header">Cold Subs or Wraps</div>
-      <div className="workContainer">
         {/* Content of the card */}
         <div className="card">     
-          <div className='breakfast-list'>
+          <div className='ColdSubsWraps-list'>
             <ul className="list-column">
               <li>Ham, Salami, Capicolla, Proscuitini & Cheese</li>
               <li>Ham & Cheese</li>
@@ -17,13 +16,7 @@ const ColdSubsWraps = () => {
               <li>Ham, Turkey & Swiss Cheese</li>
               <li>Turkey & Cheese</li>
               </ul>
-              <ul className="list-column">
-              <li>Salami & Cheese</li>
-              <li>Roast Beef & Cheese</li>
-              <li>Cheese Trio</li>
-              <li>Bologna & Cheese</li>
-              <li>Vegetrarian Sandwich</li>
-              </ul>
+            
               <ul className='list-column'>
               <li>Tuna Salad Sandwich, Ham, Turkey, Salami</li>
               <li>Peppoeroni & Cheese</li>
@@ -32,6 +25,13 @@ const ColdSubsWraps = () => {
              <div style={{ fontStyle: 'italic', marginTop: '4px' }}>Ham, Turkey, Salami</div> {/* Italic description underneath */}
              <li>Prosciutini & Cheese</li>
              </ul>
+             <ul className="list-column">
+              <li>Salami & Cheese</li>
+              <li>Roast Beef & Cheese</li>
+              <li>Cheese Trio</li>
+              <li>Bologna & Cheese</li>
+              <li>Vegetrarian Sandwich</li>
+              </ul>
              <div className="card-Button">     
             <div className='extras-Breakast'>
             <span className="extras">EXTRAS:
@@ -47,7 +47,8 @@ const ColdSubsWraps = () => {
         </div>
       </div>
     </div>
-    </div>
+
+  
   );
 }
 

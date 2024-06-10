@@ -7,8 +7,9 @@ import Breakfast from './components/Breakfast/Breakfast.js';
 import ColdSubsWraps from './components/ColdSubsWraps/ColdSubsWraps.js';
 import HotSubsWraps from './components/HotSubsWraps/HotSubsWraps.js';
 import Salads from './components/Salads/Salads.js';
-import KidsSubs from './components/KidsSubs/KidsSubs.js';
 import DrinksCombos from './components/DrinksCombos/DrinksCombos.js';
+import FooterHeader from './components/FooterHeader/FooterHeader.js'
+import Footer from './components/Footer/Footer.js';
 
 const App = () => {
   return (
@@ -20,8 +21,9 @@ const App = () => {
       <ColdSubsWraps />
       <HotSubsWraps />
       <Salads />
-      <KidsSubs />
       <DrinksCombos/>
+      <FooterHeader />
+      <Footer />
     </div>
   );
 }
