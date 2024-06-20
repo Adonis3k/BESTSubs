@@ -1,50 +1,47 @@
-
-.HotSubsWraps-Header{
-
-  
-  padding-top: 2.5rem;
-  color:red;
-  position: relative;
-  z-index: 1;  
+.HotSubsWraps-Header {
+  display: flex; /* Use flexbox to align items horizontally */
+  align-items: center; /* Vertically align items */
+  color: red;
+  z-index: 1;
+  margin-left: 10px;
 }
 
+.image-container {
+  width: px;
+  height: auto;
+  margin-left: .1rem; 
+  margin-top: 4rem;/* Adjust spacing between header text and image */
+}
 
-
- ul {
+ul {
   list-style-type: none; /* This removes the bullet points */
-  /* This removes the default padding on the left, often useful for aligning the list items to the left */
-
+  padding-left: 0; /* This removes the default padding on the left */
 }
+
 .HotSubsWraps-section {
-  
   background-color: goldenrod;
   padding: 20px; /* Adds space inside the card around the content */
   margin: 0px; /* Adds space around the card */
   transition: all 0.3s ease; /* Smooth transitions for hover effects */
+}
 
-  
-    &:hover {
-      box-shadow: 0 0 1px rgba(39, 44, 49, 0.1),
-        0 3px 16px rgba(39, 44, 49, 0.07);
-      transition: all 0.3s ease;
-      transform: translate3D(0, -1px, 0);
-    }
-  
-  }
-  .HotSubsWraps-list{  
-    padding-left: 2%;
-    font-weight: 700 ;
-    font-size: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  
+.HotSubsWraps-section:hover {
+  box-shadow: 0 0 1px rgba(39, 44, 49, 0.1),
+    0 3px 16px rgba(39, 44, 49, 0.07);
+  transition: all 0.3s ease;
+  transform: translate3D(0, -1px, 0);
+}
 
+.HotSubsWraps-list {
+  padding-left: 2%;
+  font-weight: 700;
+  font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
-  }
-  .HotSubsWraps-card{
-    background-color: white;
-    border-radius: 10%;
-  }
-  
-
+.HotSubsWraps-card {
+  background-color: white;
+  border-radius: 10%;
+}

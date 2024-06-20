@@ -1,10 +1,17 @@
 .Logo {
+    /* Adjust the height as needed */
     display: grid;
     font-family: Arial, Helvetica, sans-serif;
     place-items: center; 
     margin-top: 5rem;
-    color: rgb(81, 255, 0);
+   
     position: sticky; 
     z-index: 1001;  
     top: 0;
+}
+
+.Logo img {
+    width: 100%; /* Make the image fill the container */
+    height: 100%; /* Make the image fill the container */
+    object-fit: contain; /* Ensure the image maintains its aspect ratio */
 }

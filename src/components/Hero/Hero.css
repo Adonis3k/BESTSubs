@@ -6,3 +6,71 @@
   justify-content: center;
   background-color: #000;
 }
+/* Adjust the image size within the image slider */
+.image-slider img {
+  width: 100%; /* Make the image take the full width of its container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure the image does not overflow its container */
+  object-fit: cover; /* Cover the container while maintaining aspect ratio */
+}
+
+.phoneNumber{
+  height: 5rem;
+  background:black;
+  color: white;
+  display: grid;
+  place-items: center;
+  font-size: 4rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-sersif;
+  border: 5px solid #ffffff;
+  .hero {
+    position: relative;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+  }
+  /* Adjust the image size within the image slider */
+  .image-slider img {
+    width: 100%; /* Make the image take the full width of its container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure the image does not overflow its container */
+    object-fit: cover; /* Cover the container while maintaining aspect ratio */
+  }
+  
+  .phoneNumber{
+    height: 5rem;
+    background:black;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 4rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-sersif;
+    border: 5px solid #ffffff;
+  }
+  .adress{
+    height: 6rem;
+    padding-bottom: 30px;
+    background:green;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 1.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-sersif;
+    border: 5px solid #ffffff;
+    margin-bottom: 10px;
+  }
+}
+.adress{
+  height: 6rem;
+  padding-bottom: 30px;
+  background:green;
+  color: white;
+  display: grid;
+  place-items: center;
+  font-size: 1.5rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-sersif;
+  border: 5px solid #ffffff;
+  margin-top: -10px;
+}
