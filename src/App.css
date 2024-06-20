@@ -32,7 +32,9 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
       color:rgb(255, 0, 0);
       position: relative;
       z-index: 1;   /* Adjust the font size for mobile screens */}
-
+.image-container{
+  margin-left: 1rem;
+}
 }
  
 
@@ -54,7 +56,11 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
       color:rgb(0, 0, 0);
       position: relative;
       z-index: 1;   /* Adjust the font size for slightly larger screens */
-  }
+      
+    }
+    .image-container{
+      margin-left: .5rem;
+    }
 }
 
 @media (min-width: 425px) {
@@ -81,9 +87,9 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
   .ColdSubsWraps-Header,
   .HotSubsWraps-Header,
   .salads-Header,
-  .KidsSubs-Header , 
+  .KidsSubs-Header, 
   .DrinksCombos-Header {
-    font-size: 6rem;
+    font-size: 5rem;
       font-family: "Alex Brush", cursive;
       font-weight: 900;
       font-style: bold;
