@@ -1,17 +1,28 @@
 .HotSubsWraps-Header {
-  display: flex; /* Use flexbox to align items horizontally */
-  align-items: center; /* Vertically align items */
+  display: grid;
+  grid-template-columns: 75% 25%; /* Header text takes 75%, carousel takes 25% */
+  align-items: center;
+  padding-top: 3.5rem;
+  margin-right: 2rem;
   color: red;
   z-index: 1;
-  margin-left: 10px;
 }
 
-.image-container {
-  width: px;
-  height: auto;
-  margin-left: .1rem; 
-  margin-top: 4rem;/* Adjust spacing between header text and image */
+
+.header-text {
+  text-align: center;
+  font-size: 2rem;
 }
+
+.carousel-image-hs{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-left: -0px;
+  margin-top: 55px;
+}
+
+
 
 ul {
   list-style-type: none; /* This removes the bullet points */
