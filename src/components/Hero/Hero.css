@@ -49,28 +49,17 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-sersif;
     border: 5px solid #ffffff;
   }
-  .adress{
-    height: 6rem;
-    padding-bottom: 30px;
-    background:green;
-    color: white;
-    display: grid;
-    place-items: center;
-    font-size: 1.5rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-sersif;
-    border: 5px solid #ffffff;
-    margin-bottom: 10px;
-  }
+  
 }
 .adress{
-  height: 6rem;
+  height: 7rem;
   padding-bottom: 30px;
   background:green;
   color: white;
   display: grid;
   place-items: center;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-sersif;
   border: 5px solid #ffffff;
-  margin-top: -10px;
+  padding-top: -2px;
 }
