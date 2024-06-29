@@ -38,14 +38,14 @@ const HotSubsWraps = () => {
               <img
                 src={CA_Sub_CBR_Whole}
                 alt="Chicken Bacon Ranch"
-                className="carousel-image"
+                className="carousel-image-hs"
               />
             </div>
             <div>
               <img
                 src={CA_Sub_RoastBeef_Whole}
                 alt="Roast Beef"
-                className="carousel-image"
+                className="carousel-image-hs"
               />
             </div>
             
