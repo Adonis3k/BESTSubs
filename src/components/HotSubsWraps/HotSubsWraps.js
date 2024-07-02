@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './HotSubsWrap.css';
-import BestSubsLogo from '../../assets/images/BestSubsLogo.png';
+// import BestSubsLogo from '../../assets/images/BestSubsLogo.png';
 import CA_Sub_BigItalian_Whole from '../../assets/images/CA_Sub_BigItalian_Whole.png';
 import CA_Sub_CBR_Whole from '../../assets/images/CA_Sub_CBR_Whole.png';
 import CA_Sub_RoastBeef_Whole from '../../assets/images/CA_Sub_RoastBeef_Whole.png';

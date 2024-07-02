@@ -1,19 +1,12 @@
 .hero {
-  position: relative;
-  height: 75vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #000;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 0;
 }
-/* Adjust the image size within the image slider */
-.image-slider img {
-  width: 100%; /* Make the image take the full width of its container */
-  height: auto; /* Maintain aspect ratio */
-  max-width: 100%; /* Ensure the image does not overflow its container */
-  object-fit: cover; /* Cover the container while maintaining aspect ratio */
-}
-
 .phoneNumber{
   height: 5rem;
   background:black;
@@ -23,43 +16,32 @@
   font-size: 4rem;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-sersif;
   border: 5px solid #ffffff;
-  .hero {
-    position: relative;
-    height: 75vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #000;
-  }
-  /* Adjust the image size within the image slider */
-  .image-slider img {
-    width: 100%; /* Make the image take the full width of its container */
-    height: auto; /* Maintain aspect ratio */
-    max-width: 100%; /* Ensure the image does not overflow its container */
-    object-fit: cover; /* Cover the container while maintaining aspect ratio */
-  }
-  
-  .phoneNumber{
-    height: 5rem;
-    background:black;
-    color: white;
-    display: grid;
-    place-items: center;
-    font-size: 4rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-sersif;
-    border: 5px solid #ffffff;
-  }
-  
 }
+.beersAddres{
+  
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: auto;
+margin:0;
+height: 8rem;
+}
+.Beers {
+  width: 15rem;
+  height: auto; /* Ensure the image takes up the full height */
+  object-fit:contain;
+  padding: 0 4rem;
+}
+
 .adress{
-  height: 7rem;
-  padding-bottom: 30px;
-  background:green;
-  color: white;
+  flex: 1;
+  position: 1;
+  
+  color: red;
   display: grid;
   place-items: center;
   font-size: 1.75rem;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-sersif;
-  border: 5px solid #ffffff;
-  padding-top: -2px;
+  margin: 0 1rem;
+  padding-top: -20px;
 }

@@ -34,7 +34,9 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
       z-index: 1;   /* Adjust the font size for mobile screens */}
   .carousel-image{
   margin-left: 15%; 
+  height:20rem;
 }
+
 }
  
 
@@ -59,7 +61,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
       
     }
     .carousel-image{
-      margin-left: 30%; 
+      margin-left: 15%; 
+      height:20rem;
     }
 }
 
@@ -87,7 +90,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
 
 @media (min-width: 768px) {
   .carousel-image{
-    margin-left: 35%; 
+    margin-left: 25%; 
   }
   .Breakfast-Header,
   .ColdSubsWraps-Header,
