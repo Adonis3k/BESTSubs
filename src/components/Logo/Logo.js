@@ -25,6 +25,10 @@ const Logo = () => {
 
   return (
     <div className='Logo'>
+      <div className='Best'>
+        <span>Best</span>
+      </div>
+
       <div className='carousel-container'>
         <Slider {...settings}>
           <div>
@@ -49,6 +53,9 @@ const Logo = () => {
             <img alt='CA_Sub_Gardener_Whole' src={CA_Sub_Gardener_Whole} className='carousel-image' />
           </div>
         </Slider>
+      </div>
+      <div className='Subs'>
+        <span>Subs</span>
       </div>
     </div>
   );
