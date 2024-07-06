@@ -1,11 +1,22 @@
 import React from 'react';
 import './ColdSubsWraps.css'; // Corrected CSS import
+import ColdCut from'../../assets/images/ColdCut.jpeg';
+
 
 const ColdSubsWraps = () => {
   return (
     <div className="ColdSubsWraps-section">
       <div className="ColdSubsWraps-card"> 
-      <div className="ColdSubsWraps-Header">Cold Subs or Wraps</div>
+      <div className="ColdSubsWraps-Header">
+        Cold Subs or Wraps
+        <div >
+              <img
+                src={ColdCut}
+                alt="ColdCut"
+                className= 'ColdCut'
+              />
+            </div>
+      </div>
         {/* Content of the card */}
         <div className="card">     
           <div className='ColdSubsWraps-list'>

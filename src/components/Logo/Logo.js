@@ -13,14 +13,14 @@ import './Logo.css';
 
 const Logo = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    arrows: false,
+    arrows: true,
   };
 
   return (
@@ -53,10 +53,12 @@ const Logo = () => {
             <img alt='CA_Sub_Gardener_Whole' src={CA_Sub_Gardener_Whole} className='carousel-image' />
           </div>
         </Slider>
+    
       </div>
       <div className='Subs'>
         <span>Subs</span>
       </div>
+
     </div>
   );
 };

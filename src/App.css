@@ -6,8 +6,6 @@
   src: url('./components/Fonts/KaushanScript-Regular.ttf') format('truetype'),;
   font-style: normal;
 }
-
-
 .App
 {
   width: 100%; /* Occupy the entire width of the viewport */
@@ -18,89 +16,103 @@
 }
 .list-column{
   font-family: "Share Tech Mono", monospace;
-
-
 }
 
-.body{
-background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-}
 @media (min-width: 320px) {
-  .Breakfast-Header, 
+  .logo{
+    width: 100%;
+    }
+ .best {
+  font-size: 2.5rem;
+ }
+    .Breakfast-Header, 
   .ColdSubsWraps-Header,
   .HotSubsWraps-Header,
   .salads-Header,
   .KidsSubs-Header,
-  .DrinksCombos-Header {
+  .Caterings-Header,
+  .Drinks-Header {
     font-size: 1rem;
-    font-family: "Phosphate";
+    font-family: "KaushanScript-Regular";
     font-weight: 900;
     font-style: bold;
-      padding-left: 1rem;
-      padding-top: 2.5rem;
+      /* padding-left: 1rem;
+      padding-top: 2.5rem; */
       color:rgb(255, 0, 0);
       position: relative;
       z-index: 1;   /* Adjust the font size for mobile screens */}
  
 }
 
-
- 
-
-
-
 @media (min-width: 375px) {
+  .logo{
+    width: 100%;
+   }
   .Breakfast-Header, 
   .ColdSubsWraps-Header,
   .HotSubsWraps-Header,
   .salads-Header,
   .KidsSubs-Header,
-  .DrinksCombos-Header {
+  .Caterings-Header,
+  .Drinks-Header {
     font-size: 3rem;  
-    font-family: "Phosphate";
+    font-family: "KaushanScript-Regular";
     font-weight: 900;
     font-style: bold;
       padding-left: 1rem;
       padding-top: 2.5rem;
-      color:rgb(0, 0, 0);
+      color:Red(0, 0, 0);
       position: relative;
-      z-index: 1;   /* Adjust the font size for slightly larger screens */
-      
+      z-index: 1;   /* Adjust the font size for slightly larger screens */ 
     }
-  
 }
 
 @media (min-width: 425px) {
- 
+  .logo{
+    width: 100%;
+   }
+  .salads-Header  {
+    font-size:5rem;
+    color: green;
+}
+
   .Breakfast-Header,
   .ColdSubsWraps-Header,
   .HotSubsWraps-Header,
-  .salads-Header,
-  .KidsSubs-Header,
-  .DrinksCombos-Header {
-    font-size: 3rem;
-    font-family: "Phosphate";
-    font-weight: 900;
-    font-style: bold;
+  .Caterings-Header,
+  .KidsSubs-Header{
+  font-size:5rem;
+  color: red;}
+  .Drinks-Header {
+    font-size: 6rem;
+    font-family: "KaushanScript-Regular";
       padding-left: 1rem;
       padding-top: 2.5rem;
-      color:rgb(0, 0, 0);
+      color:red;
       position: relative;
       z-index: 1;   /* Adjust the font size for larger screens */
   }
 }
 
 @media (min-width: 768px) {
- 
+ .logo{
+  width: 100%;
+ }
+  .salads-Header{
+    font-size:11rem;
+    color: green;
+}
+.KidsSubs-Header
+  {
+    font-size:10rem;
+    color: red;}
   .Breakfast-Header,
   .ColdSubsWraps-Header,
   .HotSubsWraps-Header,
-  .salads-Header,
-  .KidsSubs-Header, 
+  .Caterings-Header,
   .DrinksCombos-Header {
-    font-size: 5rem;
-      font-family: "Phosphate", cursive;
+    font-size: 7rem;
+      font-family: "KaushanScript-Regular";
       font-weight: 100;
       font-style: normal;
         padding-left: 1rem;
@@ -108,5 +120,5 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
         color:red;
         position: relative;
         z-index: 1;  
-     } /* Adjust the font size for even larger screens */
+     } 
   }

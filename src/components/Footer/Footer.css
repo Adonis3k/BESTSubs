@@ -1,14 +1,13 @@
 .Footer-container {
-  
-    /* */
+  font-family:"KaushanScript-regular" ;
      margin-top: -4rem;
    display: grid;
    place-items: center;
-   color: #ffffff;
+   color: Charcoal;
    text-decoration: none; 
    position: relative;
    z-index: 1;
- padding-bottom: 2rem;
+ padding-bottom: 4rem;
  
  }
  

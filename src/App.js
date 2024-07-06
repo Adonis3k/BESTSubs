@@ -7,6 +7,7 @@ import ColdSubsWraps from './components/ColdSubsWraps/ColdSubsWraps.js';
 import HotSubsWraps from './components/HotSubsWraps/HotSubsWraps.js';
 import Salads from './components/Salads/Salads.js';
 import DrinksCombos from './components/DrinksCombos/DrinksCombos.js';
+import Catering from './components/Catering/Catering.js';
 import FooterHeader from './components/FooterHeader/FooterHeader.js';
 import Footer from './components/Footer/Footer.js';
 import 'slick-carousel/slick/slick.css';
@@ -24,6 +25,7 @@ const App = () => {
       <HotSubsWraps />
       <Salads />
       <DrinksCombos />
+      <Catering />
       <FooterHeader />
       <Footer />
     </div>

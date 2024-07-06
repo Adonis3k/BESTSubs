@@ -1,12 +1,23 @@
 import React from 'react';
 import './Breakfast.css';
+import bec from '../../assets/images/bec.jpg';
+
 
 const Breakfast = () => {
+  
   return (
     <div className="Breakfast-section">
       <div className="breakfast-card">  
-      <div className="Breakfast-Header">Breakfast</div>
-
+      <div className="Breakfast-Header">
+        Breakfast
+            <div >
+              <img
+                src={bec}
+                alt="bec"
+                className="bec"
+              />
+            </div>
+          </div>
       <span className='specials'>     SPECIALS: </span >
               <div className='specialslist'>
                  <li  >Ham, Eggs, & Cheese on Roll w/ Coffee or Tea</li>

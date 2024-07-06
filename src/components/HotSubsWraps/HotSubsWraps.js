@@ -26,7 +26,6 @@ const HotSubsWraps = () => {
       <div className="HotSubsWraps-card">
         <div className="HotSubsWraps-Header"><span>Hot Subs or Wraps</span>
           <Slider {...settings}>
-           
             <div>
               <img
                 src={CA_Sub_BigItalian_Whole}
@@ -52,7 +51,7 @@ const HotSubsWraps = () => {
           </Slider>
           
         </div>
-        <div className="card">
+        
           <div className='HotSubsWraps-list'>
             <ul className="list-column">
               <li>Steak & Cheese</li>
@@ -87,7 +86,7 @@ const HotSubsWraps = () => {
           </div>
         </div>
       </div>
-    </div>
+ 
   );
 }
 

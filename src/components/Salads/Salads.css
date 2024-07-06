@@ -1,20 +1,58 @@
 
 .KidsSubs-Header{
    
-    padding-top: 2.5rem;
-    color: black; 
-    position: relative;
-    z-index: 1;  
+  display: grid;
+  grid-template-columns: 50% 50%; /* Header text takes 75%, carousel takes 25% */
+  align-items: center;
+  padding-top: 3.5rem;
+  margin-right: 2rem;
+  z-index: 1;
+  line-height: 1.2; 
  }
  ul {
   list-style-type: none; /* This removes the bullet points */
   /* This removes the default padding on the left, often useful for aligning the list items to the left */
 }
+.KidSub {
+  border-radius: 25px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-left: -0px;
+  margin-top: 55px;
+
+}
+.Kidsmeal {  border-radius: 25px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-left: -0px;
+  margin-top: 55px;
+}
+.salads-Header {
+  display: grid;
+  grid-template-columns: 60% 40%; /* Header text takes 75%, carousel takes 25% */
+  align-items: center;
+  padding-top: 3.5rem;
+  margin-right: 2rem;
+  z-index: 1;
+}
+
+.Salad{
+  border-radius: 25px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-left: -0px;
+  margin-top: 0;
+  margin-bottom:0;
+
+}
 
 .salad-Card{
   background-color: white;
-  border-radius: 10%;
-  color: black;
+  border-radius: 25px;
+ 
 }
 
 .salads-section {
@@ -48,7 +86,8 @@
       }
     
     }
-    .salads-list{  
+    .salads-list{ 
+      margin-top: 0; 
       padding-left: 2%;
       font-weight: 700 ;
       font-size: 1.5rem;

@@ -1,14 +1,22 @@
 
 .ColdSubsWraps-Header{
 
-  
-  padding-top: 2.5rem;
-  color:rgb(0, 0, 0);
-  position: relative;
-  
-  z-index: 1;  
+  display: grid;
+  grid-template-columns: 50% 50%; /* Header text takes 75%, carousel takes 25% */
+  align-items: center;
+  padding-top: 3.5rem;
+  margin-right: 2rem;
+  z-index: 1;
+  line-height: 1.2; 
 }
-
+.ColdCut{
+  border-radius: 25px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-left: -0px;
+  margin-top: 55px;
+}
 .extras {
   padding-left: 2%;
   font-weight: 900;  
@@ -49,7 +57,7 @@
   }
   .ColdSubsWraps-card{
     background-color: white;
-    border-radius: 10%;
+    border-radius: 25px;
   }
   
 

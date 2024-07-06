@@ -1,3 +1,4 @@
+
 .Breakfast-section{
 background-color: red;
   font-family: "Share Tech Mono", monospace;
@@ -15,10 +16,27 @@ transition: all 0.3s ease; /* Smooth transitions for hover effects */
   }
 
 }
+.Breakfast-Header {
+  display: grid;
+  grid-template-columns: 50% 50%; /* Header text takes 75%, carousel takes 25% */
+  align-items: center;
+  padding-top: 3.5rem;
+  margin-right: 2rem;
+  z-index: 1;
+}
 
+.bec{
+  border-radius: 25px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-left: -0px;
+  margin-top: 55px;
+}
 
 
 .specials{
+  font-family: "KaushanScript-Regular";
   padding-left: 2%;
   font-weight: 900;  
   font-size: 2rem;
@@ -67,9 +85,9 @@ ul {
   /* This removes the default padding on the left, often useful for aligning the list items to the left */
 }
 .breakfast-card{
-  background-color: green;
-  border-radius: 10%;
-  color: white;
+  background-color: yellow;
+  border-radius: 25px;
+  color: rgb(0, 0, 0);
  
 }
 

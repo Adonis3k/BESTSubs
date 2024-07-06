@@ -1,0 +1,63 @@
+.Caterings-Header {
+    display: grid;
+    grid-template-columns: 50% 35%; /* Header text takes 50%, carousel takes 50% */
+    align-items: center;
+    padding-top: 0;
+    margin-right: 0;
+    color: red;
+    z-index: 1;
+  }
+  .carousel-catering{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-left: -0px;
+    margin-top: 55px;
+    margin-bottom: -20%;
+  }
+  
+  
+  
+  ul {
+    list-style-type: none; /* This removes the bullet points */
+    padding-left: 0; /* This removes the default padding on the left */
+  }
+  
+  .Catering-section {
+    background-color: Silver;
+    padding: 20px; /* Adds space inside the card around the content */
+    padding-bottom: 65px;
+    margin: 0px; /* Adds space around the card */
+    transition: all 0.3s ease; /* Smooth transitions for hover effects */
+  }
+  
+  .Catering-section:hover {
+    box-shadow: 0 0 1px rgba(39, 44, 49, 0.1),
+      0 3px 16px rgba(39, 44, 49, 0.07);
+    transition: all 0.3s ease;
+    transform: translate3D(0, -1px, 0);
+  }
+  
+  .Catering-list {
+    
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    font-weight: 700 ;
+    font-size: 1.5rem;
+    display: flex;
+    
+    justify-content: space-between;
+    padding-top: 0rem;
+      color:black;
+      position: relative;
+      z-index: 1;  
+      font-family: "Share Tech Mono", monospace;
+    
+  }
+  
+  .Catering-card {
+    background-color: white;
+    border-radius: 25px;
+  }
+  

@@ -1,56 +1,64 @@
+.Drink-Header{
+    font-size: 7rem;
+    font-family: "KaushanScript-Regular";
+    display: grid;
+    grid-template-columns: 100%; /* Header text takes 50%, carousel takes 50% */
+    align-items: center;
+    padding-top: 3.5rem;
+    margin-right: 2rem;
+    color: red;
+    z-index: 1;
+   }
 
-.DrinksCombos-Header{
-   
-    padding-top: 2.5rem;
-    color:rgb(255, 0, 0);
-    position: relative;
-    z-index: 1;  
+.Drinks-Header{
+  display: grid;
+  grid-template-columns: 63% 33%; /* Header text takes 50%, carousel takes 50% */
+  align-items: center;
+  padding-top: 3.5rem;
+  margin-right: 2rem;
+  color: red;
+  z-index: 1;
  }
- ul {
-  list-style-type: none; /* This removes the bullet points */
-  /* This removes the default padding on the left, often useful for aligning the list items to the left */
+ .carousel-drinks{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-left: -0px;
+  margin-top: 5px;
 }
+ ul {
+  list-style-type: none; 
+  padding-left: 0;  
+  
+}
+.Drinks-column,
 .DrinksCombos-list{
   padding-left: 2%;
+  padding-right: 2%;
   font-weight: 700 ;
   font-size: 1.5rem;
   display: flex;
-  flex-wrap: wrap;
+  
   justify-content: space-between;
+  padding-top: 0rem;
+    color:black;
+    position: relative;
+    z-index: 1;  
+    font-family: "Share Tech Mono", monospace;
+  
 }
 .DrinksCombos-Card {
-  background-color: silver;
-  border-radius: 10%;
-  color:black;
-  font-family: "Share Tech Mono", monospace;
-  font-weight: 500;
-  font-style: normal;
-}
-.DrinksCombos-section {
-  background-color: red; /* Sets the background of the card to white */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a subtle shadow for a 3D effect */
-  padding: 20px; /* Adds space inside the card around the content */
-  margin: 20px; /* Adds space around the card */
-  transition: all 0.3s ease; /* Smooth transitions for hover effects */
-
-  
-    &:hover {
-      box-shadow: 0 0 1px rgba(39, 44, 49, 0.1),
-        0 3px 16px rgba(39, 44, 49, 0.07);
-      transition: all 0.3s ease;
-      transform: translate3D(0, -1px, 0);
-    }
-  
-    /* .content {
-      display: flex;
-      flex-direction: column;
-      justify-content: auto;
-      height: 100%;
-      min-height: auto;
-      padding: 1.25rem;
-  
-
-    } */
+ 
+    background-color: white;
+    border-radius: 25px;
+    font-family: 'Share Tech Mono';
   }
+.DrinksCombos-section {
+  background-color: red;
+    padding: 20px;
+    padding-bottom: 25px; /* Adds space inside the card around the content */
+  margin: 0px; /* Adds space around the card */
+  transition: all 0.3s ease; /* Smooth transitions for hover effects */
   
+ }
 

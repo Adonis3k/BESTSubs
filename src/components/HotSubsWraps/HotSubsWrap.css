@@ -1,19 +1,13 @@
 .HotSubsWraps-Header {
   display: grid;
-  grid-template-columns: 75% 25%; /* Header text takes 75%, carousel takes 25% */
+  grid-template-columns: 50% 50%; /* Header text takes 50%, carousel takes 50% */
   align-items: center;
   padding-top: 3.5rem;
   margin-right: 2rem;
   color: red;
   z-index: 1;
+  line-height: 1.2; 
 }
-
-
-.header-text {
-  text-align: center;
-  font-size: 2rem;
-}
-
 .carousel-image-hs{
   width: 100%;
   height: auto;
@@ -54,5 +48,5 @@ ul {
 
 .HotSubsWraps-card {
   background-color: white;
-  border-radius: 10%;
+  border-radius: 25px;
 }
