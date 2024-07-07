@@ -1,29 +1,29 @@
 .Best{
   font-family: 'KaushanScript-Regular';
-  background: yellow;
   color: green;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 10rem;
+  font-size: 11rem;
   padding: 1rem;
   flex: 1;
+  
 
 }
 
 .Subs {
   font-family: 'Phosphate';
-  width: 0%;
   color: red;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 10rem;
-  padding-bottom: 0rem;
-  flex:3;
-  padding-left: 55rem;
-  position:absolute;
+  font-size: 11rem;
+  padding-bottom: 0;
+  flex: 3;
+  padding-left: 65%;
+  position: absolute;
 }
+
 
 .Logo {
     
@@ -49,7 +49,7 @@
   }
   
   .carousel-image {
-    width: 25rem;
+    width: 24rem;
     height: auto;
     object-fit: cover;
     

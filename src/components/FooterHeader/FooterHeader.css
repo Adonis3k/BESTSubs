@@ -1,5 +1,6 @@
 .FooterHeader {
-    background: linear-gradient(green, white, red);
+    background: red;
+    background-size: cover;
     border: none;
     margin-bottom: 1.5rem;
     margin-left: 1rem;

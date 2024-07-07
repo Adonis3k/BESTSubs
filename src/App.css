@@ -1,10 +1,13 @@
 @font-face {
   font-family: 'Phosphate';
-  src: url('./components/Fonts/PhosphateRR\ Solid.ttf') format('truetype'),;
+  src: url('./components/Fonts/PhosphateRR Solid.ttf') format('truetype');
   font-style: normal;
+}
+
+@font-face {
   font-family: 'KaushanScript-Regular';
-  src: url('./components/Fonts/KaushanScript-Regular.ttf') format('truetype'),;
-  font-style: normal;
+  src: url('./components/Fonts/KaushanScript-Regular.ttf') format('truetype');
+  font-style:normal;
 }
 .App
 {
@@ -18,36 +21,21 @@
   font-family: "Share Tech Mono", monospace;
 }
 
-@media (min-width: 320px) {
-  .logo{
-    width: 100%;
-    }
- .best {
-  font-size: 2.5rem;
- }
-    .Breakfast-Header, 
-  .ColdSubsWraps-Header,
-  .HotSubsWraps-Header,
-  .salads-Header,
-  .KidsSubs-Header,
-  .Caterings-Header,
-  .Drinks-Header {
-    font-size: 1rem;
-    font-family: "KaushanScript-Regular";
-    font-weight: 900;
-    font-style: bold;
-      /* padding-left: 1rem;
-      padding-top: 2.5rem; */
-      color:rgb(255, 0, 0);
-      position: relative;
-      z-index: 1;   /* Adjust the font size for mobile screens */}
- 
-}
+
 
 @media (min-width: 375px) {
-  .logo{
-    width: 100%;
-   }
+  .Best, .Subs {
+    font-size: 0.5rem; /* Further reduce font size for the smallest screens */
+    padding: 0.25rem;
+  }
+  .Subs {
+    padding-left: 20%;
+  }
+  .adress{
+    font-size: 4rem;
+    color: black;
+
+  }
   .Breakfast-Header, 
   .ColdSubsWraps-Header,
   .HotSubsWraps-Header,
@@ -61,59 +49,157 @@
     font-style: bold;
       padding-left: 1rem;
       padding-top: 2.5rem;
-      color:Red(0, 0, 0);
+      color:rgb(0, 0, 0);
       position: relative;
       z-index: 1;   /* Adjust the font size for slightly larger screens */ 
     }
+    .Drinks-column{
+      padding-left: 2%;
+      padding-right: 2%;
+      font-weight: 700 ;
+      font-size: 1.5rem;
+      display: flex;
+     justify-items: auto;
+      padding-top: 0rem;
+        color:black;
+        position: relative;
+        z-index: 1;  
+        font-family: "Share Tech Mono", monospace;
+    }
+    
 }
 
 @media (min-width: 425px) {
-  .logo{
-    width: 100%;
-   }
+  .Beers{
+    display: none;
+  }
+  .adress{
+    margin: 0;
+    width: 50px;
+    font-size: 2rem;
+    color: black;
+
+  }
+  .Logo {
+    height: 15rem;
+  }
+  .Best  {
+    font-size: 4.5rem; /* Further reduce font size for smaller screens */
+    padding: 0.25rem;
+  }
+  .Subs {
+    font-size: 4.5rem;
+    padding-left: 55%;
+  }
+  .carousel-image {
+    width: 11rem;
+    height: auto;
+    object-fit: cover;
+    
+  }
   .salads-Header  {
-    font-size:5rem;
+    font-size:4rem;
     color: green;
+    font-weight: 900;
 }
 
-  .Breakfast-Header,
-  .ColdSubsWraps-Header,
-  .HotSubsWraps-Header,
+  .Breakfast-Header{
+    font-size: 3rem;
+    color: red;
+  }
+  .ColdSubsWraps-Header
+  {
+    font-size: 3rem;
+    color: red;
+    margin-top: 0;
+  }
+  .ColdCut{
+    margin-bottom: 2rem;
+    padding-bottom: 0;
+  }
+  .HotSubsWraps-Header{
+    font-size: 3rem;
+    color: red;
+    margin-top: 0;
+  }
+  
   .Caterings-Header,
   .KidsSubs-Header{
-  font-size:5rem;
+  font-size:4rem;
   color: red;}
+  
   .Drinks-Header {
-    font-size: 6rem;
+    font-size:4rem;
+    color: red;
     font-family: "KaushanScript-Regular";
       padding-left: 1rem;
       padding-top: 2.5rem;
-      color:red;
       position: relative;
       z-index: 1;   /* Adjust the font size for larger screens */
   }
+  .Drinks-column{
+    padding-left: 2%;
+    padding-right: 2%;
+    font-weight: 700 ;
+    font-size: 1rem;
+    display: flex;
+   justify-items: auto;
+    padding-top: 0rem;
+      color:black;
+      position: relative;
+      z-index: 1;  
+      font-family: "Share Tech Mono", monospace;
+  }
+
 }
 
+
+
 @media (min-width: 768px) {
- .logo{
-  width: 100%;
- }
+  .Beers{
+    display:grid;
+  }
+  .adress{
+    font-size: 1.75rem;
+    color: red;
+
+  }
+  .Logo {
+    height: 35rem;
+  }
+  .Best  {
+    font-size: 11rem; /* Further reduce font size for smaller screens */
+  }
+  .Subs {
+    font-size: 11rem;
+    padding-left: 65%;
+  }
+  .carousel-image {
+    width: 24rem;
+    height: auto;
+    object-fit: cover;
+    
+  }
   .salads-Header{
     font-size:11rem;
     color: green;
+    font-weight: 900;
 }
 .KidsSubs-Header
   {
     font-size:10rem;
     color: red;}
+    .Drinks-Header {
+      font-size: 8rem;
+    }
   .Breakfast-Header,
   .ColdSubsWraps-Header,
   .HotSubsWraps-Header,
-  .Caterings-Header,
-  .DrinksCombos-Header {
+  .Caterings-Header
+  {
     font-size: 7rem;
       font-family: "KaushanScript-Regular";
-      font-weight: 100;
+      font-weight: 900; 
       font-style: normal;
         padding-left: 1rem;
         padding-top: 2.5rem;
@@ -121,4 +207,18 @@
         position: relative;
         z-index: 1;  
      } 
+     .Drinks-column{
+       padding-left: 2%;
+       padding-right: 2%;
+       font-weight: 700 ;
+       font-size: 1.5rem;
+       display: flex;
+      justify-items: auto;
+       padding-top: 0rem;
+         color:black;
+         position: relative;
+         z-index: 1;  
+         font-family: "Share Tech Mono", monospace;
+       
+     }
   }

@@ -49,16 +49,10 @@ const DrinksCombos = () => {
           </div>
           <div classname="Drinks">
           <ul className="Drinks-column">
-          <li>Beer</li>
-          <li>Bottled Soda</li>
-          <li>Can Soda</li>
-          <li>Coffee</li>
-          <li>Iced Coffe</li>
-          <li>Tea</li>
-          <li>Fruit Juice</li>
+          <span>Soda </span> <span>Beer</span> <span>Coffee</span> <span>Iced Coffee</span> <span>Tea </span> <span>Fruit-Juice</span>
           </ul>
           </div>
-      <div className="Drink-Header"><span>Drinks & Combos</span>
+      <div className="Drinks-Header"><span>Drinks & Combos</span>
       
       </div>  
           <div className='DrinksCombos-list'>
@@ -69,17 +63,8 @@ const DrinksCombos = () => {
               </div>
               </ul>
                </div>
-              
               </div>
-             
-              
-              
-              </div>
-            
-         
-          
-     
-       
+              </div>       
   );
 }
   

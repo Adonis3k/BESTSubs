@@ -9,7 +9,7 @@ const Hero = () => {
     // </div>
    <div>
    <div className="phoneNumber">
-   <span>Order NOW:  212 - 987 - 9756</span>
+   <span> 212 - 987 - 9756</span>
    </div>
    <div className='beersAddres'>
    <div>
