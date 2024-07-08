@@ -39,7 +39,7 @@ class FooterHeader extends Component {
         <div className={`navitem ${isOpen ? 'open' : ''}`}>
           <ul>
             <li>212-987-9757</li>
-            <li>646-643-7767</li>
+          
             <li>1928 3rd Avenue, New York, NY 10029</li>
           </ul>
         </div>
