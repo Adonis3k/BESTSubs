@@ -107,7 +107,7 @@
     padding: 1rem;
     font-size: 1rem;
     justify-content:center;
-    height: auto;
+    height: 1rem;
     background-color: rgba(255, 255, 255, 0.95);
     align-items: center;
     flex-direction: row;
@@ -229,7 +229,7 @@
 
   }
   .Logo {
-    height: 26rem;
+    height: 27rem;
   }
   .Best  {
     font-size: 11rem;

@@ -27,6 +27,7 @@
     align-items: center;
     font-family: "Alex Brush", cursive;
     overflow-y: auto;
+    padding-top: 0;
 }
 
 .navitem.open {
