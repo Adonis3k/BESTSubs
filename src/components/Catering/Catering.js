@@ -51,13 +51,14 @@ const Catering = () => {
           
         </div>
         
-          <div className='Catering-list'>
+          <ul className='Catering-list'>
             
-              <li>Party Platters</li>
+              
               <li>3 & 6 Foot Sandwiches</li>
               <li>Assorted Wraps Pinwheels</li>
+              <li>Party Platters</li>
              
-          </div>
+          </ul>
         </div>
       </div>
  

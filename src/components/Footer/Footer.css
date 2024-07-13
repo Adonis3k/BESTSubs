@@ -1,9 +1,10 @@
 .Footer-container {
-  font-family:"KaushanScript-regular" ;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
      margin-top: -4rem;
-   display: grid;
+   font-weight: bolder;
+     display: grid;
    place-items: center;
-   color: Charcoal;
+   color: Black;
    text-decoration: none; 
    position: relative;
    z-index: 1;

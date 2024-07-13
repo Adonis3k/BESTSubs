@@ -19,7 +19,7 @@ class Header extends Component {
 
   handleResize = () => {
     const showButton = window.innerWidth < 768;
-    const headerHeight = showButton ? 565 : -25 ; // Ensure headerHeight is correctly set
+    const headerHeight = showButton ? 768 : -25 ; // Ensure headerHeight is correctly set
     this.setState({ showButton, headerHeight });
   };
 

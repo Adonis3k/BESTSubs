@@ -6,7 +6,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import beer from '../../assets/images/beer.png';
 import CokeBottle from '../../assets/images/CokeBottle.png';
 import CanSoda from '../../assets/images/CanSoda.png';
-
+import DrinkCombo from '../../assets/images/DrinkCombo.png';
 const DrinksCombos = () => {
   const settings = {
     dots: false,
@@ -49,11 +49,22 @@ const DrinksCombos = () => {
           </div>
           <div classname="Drinks">
           <ul className="Drinks-column">
-          <span>Soda </span> <span>Beer</span> <span>Coffee</span> <span>Iced Coffee</span> <span>Tea </span> <span>Fruit-Juice</span>
+          <li>Soda </li> 
+          <li>Beer</li> 
+          <li>Coffee</li> 
+          <li>Iced Coffee</li> 
+          <li>Tea </li> 
+          <li>Fruit-Juice</li>
           </ul>
           </div>
       <div className="Drinks-Header"><span>Drinks & Combos</span>
-      
+      <div >
+              <img
+                src={DrinkCombo}
+                alt="DrinkCombo"
+                className="DrinkCombo"
+              />
+            </div>
       </div>  
           <div className='DrinksCombos-list'>
             <ul>

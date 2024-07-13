@@ -1,5 +1,5 @@
 .FooterHeader {
-    background: red;
+    background: black;
     background-size: cover;
     border: none;
     margin-bottom: 1.5rem;
@@ -62,7 +62,7 @@
     text-decoration: underline;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     .navitem {
         position: fixed;
         display: flex;

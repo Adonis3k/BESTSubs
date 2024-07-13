@@ -12,7 +12,7 @@
 
 .Drinks-Header{
   display: grid;
-  grid-template-columns: 63% 33%; /* Header text takes 50%, carousel takes 50% */
+  grid-template-columns: 60% 40%; /* Header text takes 50%, carousel takes 50% */
   align-items: center;
   padding-top: 3.5rem;
   margin-right: 2rem;
@@ -31,7 +31,7 @@
   padding-left: 0;  
   
 }
-.Drinks-column,
+
 .DrinksCombos-list{
   padding-left: 2%;
   padding-right: 2%;
@@ -62,3 +62,19 @@
   
  }
 
+.DrinkCombo{border-radius: 25px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-left: -0px;
+  margin-top: 55px;}
+.Drinks-column {
+  margin-top: 0; 
+  padding-left: 2%;
+  font-weight: 700 ;
+  font-size: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}

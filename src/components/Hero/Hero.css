@@ -4,8 +4,9 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  height: 75%;
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 0rem 0;
 }
 .phoneNumber{
   height: 5rem;
@@ -37,7 +38,7 @@ height: 8rem;
   flex: 1;
   position: 1;
   
-  color: red;
+  color: black;
   display: grid;
   place-items: center;
   font-size: 1.75rem;
