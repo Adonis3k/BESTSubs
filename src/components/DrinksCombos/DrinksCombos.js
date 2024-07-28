@@ -4,7 +4,6 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Beers from '../../assets/images/Beers.png';
-import CokeBottle from '../../assets/images/CokeBottle.png';
 import CanSoda from '../../assets/images/CanSoda.png';
 import DrinkCombo from '../../assets/images/DrinkCombo.png';
 import jarrito from '../../assets/images/jarrito.png';
