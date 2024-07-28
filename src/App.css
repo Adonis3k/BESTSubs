@@ -3,7 +3,6 @@
   src: url('./components/Fonts/PhosphateRR Solid.ttf') format('truetype');
   font-style: normal;
 }
-
 @font-face {
   font-family: 'KaushanScript-Regular';
   src: url('./components/Fonts/KaushanScript-Regular.ttf') format('truetype');
@@ -14,15 +13,13 @@
   width: 100%; /* Occupy the entire width of the viewport */
   max-width: Auto; /* Limit the maximum width to 320px */
   margin: 0 auto; /* Center the element horizontally */
-
 }
 .list-column{
   font-family: "Share Tech Mono", monospace;
 }
 
-
-
 @media (min-width: 375px) {
+  
   .nav-toggle {
     display: block;
     border-bottom: none;
@@ -58,14 +55,28 @@
   }
   .carousel-image{
     
-    width: 35%;
+    width: 20%;
     padding-right: 4rem;
 
   }
   .adress{
-    font-size: rem;
+    font-size: 2rem;
     color: black;
+    flex: 1;
+    justify-content: center;
+    position: 1;
+    display: flex;
+    place-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-sersif;
+    margin: 0 1rem;
+    padding-top: 2rem;
 
+  }
+  .drinkMenuImages {
+    width: 7rem; 
+  }
+  .drinkMenuImages1{
+    width: 7rem;
   }
   .Breakfast-Header, 
   .ColdSubsWraps-Header,
@@ -97,7 +108,25 @@
         z-index: 1;  
         font-family: "Share Tech Mono", monospace;
     }
-    
+    .FooterHeader
+    {display: contents;
+      background: white;
+    height:40px;
+      border: none;
+      margin-bottom: 0;
+      margin-left: 0;
+      font-size: 1rem;
+      color: black;
+      font-family: "Share Tech Mono", monospace;
+      cursor: pointer;
+      position: fixed;
+      bottom: 0; /* Anchors to the bottom of the page */
+      left: 0;
+      width: 100%; /* Takes full width */
+      z-index: 10000;
+      display: flex;
+      justify-content: center; /* Centers the content */
+      align-items: center;}
 }
 
 @media (min-width: 425px) {
@@ -157,8 +186,8 @@
 }
 
   .Breakfast-Header{
-    font-size: 2rem;
-    color: red;
+    font-size: 2.5rem;
+    color: yellow;
   }
   .ColdSubsWraps-Header
   {
@@ -175,7 +204,9 @@
     color: red;
     margin-top: 0;
   }
-  
+  .drinkMenuImages1{
+    width: 10rem;
+  }
   
   .KidsSubs-Header{
   font-size:4rem;
@@ -183,10 +214,10 @@
   
   .Drinks-Header {
     font-size:4rem;
-    color: red;
+    color: yellow;
     font-family: "KaushanScript-Regular";
       padding-left: 1rem;
-      padding-top: 2.5rem;
+      padding-top: 1rem;
       position: relative;
       z-index: 1;   /* Adjust the font size for larger screens */
   }
@@ -213,20 +244,32 @@
     position: fixed;
     display: flex;
     padding: 1rem;
-    justify-content: space-between;
-    height: auto;
+    font-size: 1rem;
+    justify-content:center;
+    height: 1rem;
     background-color: rgba(255, 255, 255, 0.95);
     align-items: center;
     flex-direction: row;
 }
   .Beers{
-    display:grid;
-    padding: .75rem;
+    width: 15rem;
+    height: auto;
+    display: flex;
+    padding: .5rem;
+    height: auto; /* Ensure the image takes up the full height */
+    object-fit:contain;
+    margin-bottom: -4rem;
   }
   .adress{
-    font-size: 1.75rem;
-    color: red;
-
+    flex: 1;
+    position: 1;
+    color: black;
+    display: flex;
+    place-items: center;
+    font-size: 1.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-sersif;
+    margin: 0 1rem;
+    padding-top: 2rem;
   }
   .Logo {
     height: 35rem;
@@ -240,11 +283,18 @@
     padding-left: 50%;
   }
   .carousel-image {
-    width: 22rem;
-    height: auto;
-    object-fit: cover;
-    
+display: flex;
+justify-content: center;
+width: 20rem;
+padding-top: 25rem;
   }
+
+.drinkMenuImages1{
+  width: 20rem;
+}
+.drinkMenuImages{
+  width: 15rem;
+}
   .salads-Header{
     font-size:9rem;
     color: green;
@@ -256,6 +306,7 @@
     color: red;}
     .Drinks-Header {
       font-size: 8rem;
+      color: yellow;
     }
   .Breakfast-Header
   {
@@ -284,7 +335,8 @@
         position: relative;
         z-index: 1;  
      } 
-     .Drinks-column{
+     .Drinks-column
+      {
        padding-left: 2%;
        padding-right: 2%;
        font-weight: 700 ;
@@ -292,12 +344,16 @@
        display: flex;
       justify-items: auto;
        padding-top: 0rem;
-         color:black;
+         color:white;
          position: relative;
          z-index: 1;  
          font-family: "Share Tech Mono", monospace;
-       
      }
+     .list-column1{
+      color: white;
+
+     }
+     
   }
   @media (min-width: 932px) {
     .navitem {
@@ -312,9 +368,35 @@
   }
       .Breakfast-Header{
         font-size: 6rem;
-        color: red;
+        color: yellow;
       }
+      .carousel-image {
+        width: 17rem;
+        height: auto;
+        object-fit: cover;
+        padding-bottom: 20rem;
     }
+    .Beers{
+      width: 20rem;
+      height: auto;
+      display: flex;
+      padding: .75rem;
+      height: auto; /* Ensure the image takes up the full height */
+      object-fit:contain;
+      margin-bottom: -4rem;
+    }
+    .adress{
+      flex: 1;
+      position: 1;
+      color: black;
+      display: flex;
+      justify-content: center;
+      place-items: center;
+      font-size: 1.5rem;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-sersif;
+      margin: 0 1rem;
+      padding-top: 2rem;
+    }}
   @media (min-width: 1024px)
 
     {
@@ -340,6 +422,29 @@
         width: 22rem;
         height: auto;
         object-fit: cover;
+        padding-bottom: 20rem;
         
+      }
+      .Beers{
+        width: 25rem;
+        height: auto;
+        display: flex;
+        padding: .75rem;
+        height: auto; /* Ensure the image takes up the full height */
+        object-fit:contain;
+        margin-bottom: -4rem;
+      }
+      .adress{
+        flex: 1;
+        position: 1;
+      
+        color: black;
+        display: flex;
+        justify-content: center;
+        place-items: center;
+        font-size: 1.75rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-sersif;
+        margin: 0 1rem;
+        padding-top: 2rem;
       }
     }

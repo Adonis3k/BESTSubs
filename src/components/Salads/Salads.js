@@ -31,7 +31,6 @@ const Salads = () => {
               <li>Grilled Chicken</li>
               <li>Chef's Salad</li>
               <li>Healthy Salad</li>
-              <li>Potato, Macaroni, Coleslaw</li>
             </ul>
           </div>
         </div>

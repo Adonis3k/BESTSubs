@@ -1,6 +1,6 @@
 .FooterHeader {
     background: black;
-    background-size: cover;
+    z-index: 2001;
     border: none;
     margin-bottom: 1.5rem;
     margin-left: 1rem;
@@ -27,7 +27,7 @@
     align-items: center;
     font-family: "Alex Brush", cursive;
     overflow-y: auto;
-    padding-top: 0;
+    
 }
 
 .navitem.open {

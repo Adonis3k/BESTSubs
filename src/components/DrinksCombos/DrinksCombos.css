@@ -1,25 +1,13 @@
-.Drink-Header{
-    font-size: 7rem;
-    font-family: "KaushanScript-Regular";
-    display: grid;
-    grid-template-columns: 100%; /* Header text takes 50%, carousel takes 50% */
-    align-items: center;
-    padding-top: 3.5rem;
-    margin-right: 2rem;
-    color: red;
-    z-index: 1;
-   }
-
 .Drinks-Header{
   display: grid;
   grid-template-columns: 60% 40%; /* Header text takes 50%, carousel takes 50% */
   align-items: center;
   padding-top: 3.5rem;
   margin-right: 2rem;
-  color: red;
+  color: white;
   z-index: 1;
  }
- .carousel-drinks{
+ .drinkMenuImages{
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -49,7 +37,7 @@
 }
 .DrinksCombos-Card {
  
-    background-color: white;
+    background-color: green;
     border-radius: 25px;
     font-family: 'Share Tech Mono';
   }
@@ -77,4 +65,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
 
+}
+.drinkMenuImages {
+  width: 400px;
+  padding-right: 8rem;
 }

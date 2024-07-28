@@ -1,3 +1,9 @@
+.Banner{
+    position:fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
 .nav-toggle {
     background: none;
     border: none;
@@ -72,7 +78,7 @@
         justify-content: space-between;
         height: auto; 
         background-color: rgba(255, 255, 255, 0.95);
-        position:sticky;
+        position: relative;
         align-items: center; 
         border-bottom: none;
         flex-direction: row;
@@ -94,31 +100,4 @@
     }
 }
 
-@media (max-width: 768px) {
-    .nav-toggle {
-        display: block;
-        border-bottom: none;
-        position: fixed;
-    }
 
-    .navitems {
-        display: none;
-    }
-
-    .navitems.open {
-        display: flex;
-        top: 2.5rem;
-        background-color: rgba(255, 255, 255);
-    }
-
-    .navitems.open ul {
-        display: contents;
-    }
-
-    .navitems.open li {
-        display: block;
-        margin: 0.5rem 0;
-        width: 100%;
-        text-align: center;
-    }
-}

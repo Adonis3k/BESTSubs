@@ -1,3 +1,33 @@
+
+.phoneNumber{
+  background-size: cover;
+  height: 5rem;
+  background:black;
+  color: white;
+  display: grid;
+  place-items: center;
+  font-size: 4rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-sersif;
+  border: 5px solid #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding-bottom: 0;
+}
+.sticky-banner {
+  position: fixed;
+  top: 50px;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  height: 4rem;
+  background: black;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
 .hero {
   display: flex;
   flex-direction: column;
@@ -8,41 +38,22 @@
   margin: 0 auto;
   padding: 0rem 0;
 }
-.phoneNumber{
-  height: 5rem;
-  background:black;
-  color: white;
-  display: grid;
-  place-items: center;
-  font-size: 4rem;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-sersif;
-  border: 5px solid #ffffff;
-}
 .beersAddres{
   
 display: flex;
 justify-content: space-between;
 align-items: center;
-width: auto;
+width: cover;
 margin:0;
-height: 8rem;
+padding-top: 6rem;
+margin-bottom: 0;
+height: 0;
 }
 .Beers {
-  width: 15rem;
+  width: 23rem;
   height: auto; /* Ensure the image takes up the full height */
   object-fit:contain;
-  padding: 0 4rem;
+  margin-bottom: -4rem;
+
 }
 
-.adress{
-  flex: 1;
-  position: 1;
-  
-  color: black;
-  display: grid;
-  place-items: center;
-  font-size: 1.75rem;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-sersif;
-  margin: 0 1rem;
-  padding-top: -20px;
-}

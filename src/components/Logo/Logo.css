@@ -1,6 +1,6 @@
 .Best{
   font-family: 'KaushanScript-Regular';
-  color: green;
+  color: yellow;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,7 +32,7 @@
     position:static;
     width: 100%;
   
-    background-color: yellow;
+    background-color: green;
     background-size:cover;
     background-position: center ;
     display: flex;

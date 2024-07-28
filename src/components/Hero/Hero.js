@@ -1,34 +1,55 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Beers from '../../assets/images/Beers.png';
 import './Hero.css';
 
 const Hero = () => {
+  useEffect(() => {
+    const phoneNumber = document.querySelector('.phoneNumber');
+    const initialPhoneNumberTop = phoneNumber.getBoundingClientRect().top;
+
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+
+      if (scrollTop >= initialPhoneNumberTop - 20) {
+        phoneNumber.classList.add('sticky-banner');
+      } else {
+        phoneNumber.classList.remove('sticky-banner');
+      }
+    };
+
+    // Attach scroll event listener
+    window.addEventListener('scroll', handleScroll);
+
+    // Cleanup event listener on component unmount
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    // <div className="hero">
-    //   <ImageSlider />
-    // </div>
-   <div>
-   <div className="phoneNumber">
-   <span> 212 - 987 - 9756</span>
-   </div>
-   <div className='beersAddres'>
-   <div>
-      <img alt='Beers' src={Beers} className='Beers' />
-  </div>
-  <div className='adress'>
-
-    <ul>
-    <li>1928 3rd AVENUE</li>
-    <li> CORNER OF 106TH ST.</li>
-    <li>NEW YORK, N.Y. 10029</li>
-    </ul>
-   </div>
-   <div>
-      <img alt='Beers' src={Beers} className='Beers' />
-  </div>
-   </div>
-   </div>
-
+    <div>
+     <div className="phoneNumber">
+        <a href="tel:+12129879756">212 - 987 - 9756</a>
+      </div>
+      <div className='beersAddres'>
+        <div>
+          <img alt='Beers' src={Beers} className='Beers' />
+        </div>
+        <div className='adress'>
+          <ul>
+            <li>1928 3rd AVENUE</li>
+            <li> CORNER OF 106TH ST.</li>
+            <li>NEW YORK, N.Y. 10029</li>
+          </ul>
+        </div>
+        <div>
+          <img alt='Beers' src={Beers} className='Beers' />
+        </div>
+      </div>
+      <div className="hero">
+        {/* Your hero content goes here */}
+      </div>
+    </div>
   );
 }
 

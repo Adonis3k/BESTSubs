@@ -9,6 +9,7 @@ import CA_Sub_BigItalian_Whole from '../../assets/images/CA_Sub_BigItalian_Whole
 import Sub_3meat_wheat_whole from '../../assets/images/Sub_3meat_wheat_whole.png';
 import CA_Sub_Turkey_Whole from '../../assets/images/CA_Sub_Turkey_Whole.png';
 import CA_Sub_Gardener_Whole from '../../assets/images/CA_Sub_Gardener_Whole.png';
+
 import './Logo.css';
 
 const Logo = () => {

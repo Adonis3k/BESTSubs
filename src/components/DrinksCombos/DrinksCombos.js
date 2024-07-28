@@ -3,10 +3,11 @@ import './DrinksCombos.css';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import beer from '../../assets/images/beer.png';
+import Beers from '../../assets/images/Beers.png';
 import CokeBottle from '../../assets/images/CokeBottle.png';
 import CanSoda from '../../assets/images/CanSoda.png';
 import DrinkCombo from '../../assets/images/DrinkCombo.png';
+import jarrito from '../../assets/images/jarrito.png';
 const DrinksCombos = () => {
   const settings = {
     dots: false,
@@ -25,23 +26,23 @@ const DrinksCombos = () => {
               <Slider {...settings}>
             <div>
               <img
-                src={beer}
-                alt="beer"
-                className="carousel-drinks"
+                src={Beers}
+                alt="Beers"
+                className="drinkMenuImages1"
               />
             </div>
             <div>
               <img
                 src={CanSoda}
                 alt="CanSoda"
-                className="carousel-drinks"
+                className="drinkMenuImages"
               />
             </div>
             <div>
               <img
-                src={CokeBottle}
-                alt="CokeBottle"
-                className="carousel-drinks"
+                src={jarrito}
+                alt="jarrito"
+                className="drinkMenuImages"
               />
             </div>
             
@@ -68,7 +69,7 @@ const DrinksCombos = () => {
       </div>  
           <div className='DrinksCombos-list'>
             <ul>
-              <div classname= 'list-column'>
+              <div classname= 'list-column1'>
               <li>Make any Sub, Wrap or Salad a Combo!</li>
               <li>Includes: Chips, Soda or Juice</li>
               </div>

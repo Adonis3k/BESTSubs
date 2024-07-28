@@ -21,7 +21,7 @@ const ColdSubsWraps = () => {
         <div className="card">     
           <div className='ColdSubsWraps-list'>
             <ul className="list-column">
-              <li>Ham, Salami, Capicolla, Proscuitini & Cheese</li>
+              <li>Ham, Salami, Capicolla</li>
               <li>Ham & Cheese</li>
               <li>Ham, Salami & Cheese</li>
               <li>Ham, Turkey & Swiss Cheese</li>
@@ -34,13 +34,12 @@ const ColdSubsWraps = () => {
               <div style={{ fontStyle: 'italic', marginTop: '4px' }}>Roast Beef, Pastrami, Turkey</div> {/* Italic description underneath */}
              <li>Ham, Salami & Cheese</li>
              <div style={{ fontStyle: 'italic', marginTop: '4px' }}>Ham, Turkey, Salami</div> {/* Italic description underneath */}
-             <li>Prosciutini & Cheese</li>
+             
              </ul>
              <ul className="list-column">
               <li>Salami & Cheese</li>
               <li>Roast Beef & Cheese</li>
               <li>Cheese Trio</li>
-              <li>Bologna & Cheese</li>
               <li>Vegetrarian Sandwich</li>
               </ul>
              <div className="card-Button">     
