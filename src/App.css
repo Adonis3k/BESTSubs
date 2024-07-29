@@ -78,7 +78,17 @@
   .drinkMenuImages1{
     width: 7rem;
   }
-  .Breakfast-Header, 
+  .Breakfast-Header {
+    font-size: 2rem;  
+    font-family: "KaushanScript-Regular";
+    font-weight: 900;
+    font-style: bold;
+      padding-left: 1.75rem;
+      padding-top: 2.5rem;
+      color:yellow;
+      position: relative;
+      z-index: 1;  
+  }  
   .ColdSubsWraps-Header,
   .HotSubsWraps-Header,
   .salads-Header,
@@ -186,7 +196,7 @@
 }
 
   .Breakfast-Header{
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     color: yellow;
   }
   .ColdSubsWraps-Header
