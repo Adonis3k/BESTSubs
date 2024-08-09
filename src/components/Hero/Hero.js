@@ -10,17 +10,14 @@ const Hero = () => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
 
-      if (scrollTop >= initialPhoneNumberTop - 20) {
+      if (scrollTop >= initialPhoneNumberTop - 1) {
         phoneNumber.classList.add('sticky-banner');
       } else {
         phoneNumber.classList.remove('sticky-banner');
       }
     };
-
-    // Attach scroll event listener
     window.addEventListener('scroll', handleScroll);
 
-    // Cleanup event listener on component unmount
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };

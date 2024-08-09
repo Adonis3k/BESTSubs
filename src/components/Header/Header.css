@@ -1,11 +1,12 @@
 .Banner{
     position:fixed;
     width: 100%;
-    top: 0;
-    z-index: 1000;
+    z-index: 10000;
+    display: flex;
 }
 .nav-toggle {
     background: none;
+    display: block;
     border: none;
     font-size: 2rem;
     color: rgb(0, 0, 0);
@@ -18,15 +19,16 @@
 }
 
 .navitems {
+    display: none;
     position:relative;
     width: 100%;
     height: 80%;
     top: 0;
     left: 0;
+    color: black;
     background-color: rgba(255, 255, 255, 0.95);
-    z-index: 1000;
+    z-index: 10001;
     overflow-y: auto;
-    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -38,12 +40,14 @@
 }
 
 .navitems ul {
+    height: 85%;
     width: auto;
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: row;
+    color: black;
+    flex-direction:column;
     align-items: center;
 }
 
@@ -55,49 +59,20 @@
     font-family: "Share Tech Mono", monospace;
     font-weight: 500;
     font-style: normal;
-    color: rgb(0, 0, 0);
+    color: black;
     border-bottom: 0.5px solid #606060;
     justify-content: space-between;
 }
 
 .navitems li:last-child {
     border-bottom: none;
+    color: black;
 }
 
 .navitems a:hover, .navitems li a:hover {
     text-decoration: underline;
+    color: black;
 }
 
-@media (min-width: 769px) {
-    .navitems {
-        position: fixed;
-        display: flex; 
-        padding-left: 1rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        justify-content: space-between;
-        height: auto; 
-        background-color: rgba(255, 255, 255, 0.95);
-        position: relative;
-        align-items: center; 
-        border-bottom: none;
-        flex-direction: row;
-    }
-
-    .navitems ul {
-        width: 100%; /* Ensure the ul takes full width */
-        display: flex; /* Display ul as flex */
-        justify-content: space-between; /* Distribute space between items */
-        padding: 0; /* Reset padding */
-        margin: 0; /* Reset margin */
-    }
-
-    .navitems li {
-        padding: 0; 
-        margin: 0; 
-        border-bottom: none; 
-        padding-right: 2rem;
-    }
-}
 
 

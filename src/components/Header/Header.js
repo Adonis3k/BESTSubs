@@ -19,9 +19,17 @@ class Header extends Component {
 
   handleResize = () => {
     const showButton = window.innerWidth < 768;
-    const headerHeight = showButton ? 768 : -25 ; // Ensure headerHeight is correctly set
+    const headerElement = document.querySelector(".Banner");
+    const headerHeight = headerElement ? headerElement.offsetHeight : 10;
+    
     this.setState({ showButton, headerHeight });
-  };
+    
+    // Ensure the Banner is displayed on larger screens
+    if (headerElement && window.innerWidth >= 768) {
+        headerElement.style.display = 'flex';
+    }
+};
+
 
   toggleNav() {
     this.setState(prevState => ({

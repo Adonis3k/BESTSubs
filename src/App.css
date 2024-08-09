@@ -250,8 +250,10 @@
 
 
 @media (min-width: 768px) {
-  .navitem {
-    position: fixed;
+  .Banner {display: flex;}
+  
+  .navitems {
+    position: relative;
     display: flex;
     padding: 1rem;
     font-size: 1rem;
@@ -260,6 +262,37 @@
     background-color: rgba(255, 255, 255, 0.95);
     align-items: center;
     flex-direction: row;
+    color: black;
+}
+
+.nav-toggle {
+  display: none; /* Hide the toggle button on larger screens */
+}
+
+.navitems ul {
+  height: 85%;
+  width: auto;
+  list-style-type: none;
+  margin: 0 1rem;
+  padding: 0;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  color: black;
+  justify-content: space-between;
+}
+
+.navitems li {
+  padding: 1.5rem 0;
+  padding-top: 2.5rem;
+  align-items: center;
+  margin-left: 2rem;
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  border-bottom: 0.5px solid #606060;
+  justify-content: space-between;
 }
   .Beers{
     width: 15rem;
@@ -285,18 +318,18 @@
     height: 35rem;
   }
   .Best  {
-    font-size: 11rem;
-   padding-left: 1rem;
+    font-size: 10rem;
+   padding-left: 2%;
   }
   .Subs {
-    font-size: 11rem;
+    font-size: 10rem;
     padding-left: 50%;
   }
   .carousel-image {
-display: flex;
-justify-content: center;
-width: 20rem;
-padding-top: 25rem;
+
+width: 18rem;
+padding-top: 1rem;
+padding-left: 0;
   }
 
 .drinkMenuImages1{
@@ -366,6 +399,14 @@ padding-top: 25rem;
      
   }
   @media (min-width: 932px) {
+    .Best  {
+      font-size: 10rem;
+     padding-left: 5%;
+    }
+    .Subs {
+      font-size: 10rem;
+      padding-left: 60%;
+    }
     .navitem {
       position: fixed;
       display: flex;
@@ -384,7 +425,7 @@ padding-top: 25rem;
         width: 17rem;
         height: auto;
         object-fit: cover;
-        padding-bottom: 20rem;
+        padding-bottom: 0rem;
     }
     .Beers{
       width: 20rem;
@@ -410,6 +451,7 @@ padding-top: 25rem;
   @media (min-width: 1024px)
 
     {
+      
       .navitem {
         position: fixed;
         display: flex;
@@ -432,7 +474,7 @@ padding-top: 25rem;
         width: 22rem;
         height: auto;
         object-fit: cover;
-        padding-bottom: 20rem;
+        padding-bottom: 0rem;
         
       }
       .Beers{
@@ -452,7 +494,7 @@ padding-top: 25rem;
         display: flex;
         justify-content: center;
         place-items: center;
-        font-size: 1.75rem;
+        font-size: 130%;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-sersif;
         margin: 0 1rem;
         padding-top: 2rem;
